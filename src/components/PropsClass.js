@@ -15,6 +15,7 @@ export default class PropsClass extends Component {
   }
 
   render() {
+    //destructuring state
     const { message } = this.state;
     return (
       <div>
