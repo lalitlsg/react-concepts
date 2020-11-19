@@ -9,14 +9,14 @@ function App() {
   return (
     <div className="App">
       {/* <JSXExample /> */}
-
-      {/* <PropsFunctional name="Props Functional">
+      {/* 
+      <PropsFunctional name="Props Functional">
         <h1>Hi</h1>
       </PropsFunctional> */}
 
-      {/* <PropsClass name="Props Class">
+      <PropsClass name="Props Class">
         <h1>Hi</h1>
-      </PropsClass> */}
+      </PropsClass>
 
       <Counter />
     </div>

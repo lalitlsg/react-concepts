@@ -1,9 +1,9 @@
 import React from "react";
 
-function PropsFunctional(props) {
+function PropsFunctional({ name, children }) {
   return (
     <div>
-      {props.children} {props.name}
+      {children} {name}
     </div>
   );
 }

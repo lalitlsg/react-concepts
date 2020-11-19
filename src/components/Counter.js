@@ -14,7 +14,7 @@ export default class Counter extends Component {
       //   {
       //     count: this.state.count + 1
       //   },
-      //second parameter is callback fun used when we want to do something only after chnage in state
+      //second parameter is callback fun used when we want to do something immediately only after change in state
       //   () => {
       //     console.log(this);
       //     console.log(this.state.count);
