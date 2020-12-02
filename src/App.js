@@ -8,6 +8,7 @@ import EventExample from "./components/event/EventExample";
 import MethodProp from "./components/method-prop/MethodProp";
 import ParentMethodProp from "./components/method-prop/ParentMethodProp";
 import Login from "./components/cond-render/Login";
+import List from "./components/lists/List";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <EventExample /> */}
 
       {/* <ParentMethodProp /> */}
-      <Login />
+      {/* <Login /> */}
+      <List />
     </div>
   );
 }
