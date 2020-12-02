@@ -1,10 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import JSXExample from "./components/JSXExample";
-import PropsFunctional from "./components/PropsFunctional";
-import PropsClass from "./components/PropsClass";
-import Counter from "./components/Counter";
-import EventExample from "./components/EventExample";
+import JSXExample from "./components/basics/JSXExample";
+import PropsFunctional from "./components/basics/PropsFunctional";
+import PropsClass from "./components/basics/PropsClass";
+import Counter from "./components/basics/Counter";
+import EventExample from "./components/event/EventExample";
+import MethodProp from "./components/method-prop/MethodProp";
+import ParentMethodProp from "./components/method-prop/ParentMethodProp";
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
       </PropsClass>
 
       <Counter /> */}
-      <EventExample />
+      {/* <EventExample /> */}
+
+      <ParentMethodProp />
     </div>
   );
 }
