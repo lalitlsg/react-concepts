@@ -7,6 +7,7 @@ import Counter from "./components/basics/Counter";
 import EventExample from "./components/event/EventExample";
 import MethodProp from "./components/method-prop/MethodProp";
 import ParentMethodProp from "./components/method-prop/ParentMethodProp";
+import Login from "./components/cond-render/Login";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       <Counter /> */}
       {/* <EventExample /> */}
 
-      <ParentMethodProp />
+      {/* <ParentMethodProp /> */}
+      <Login />
     </div>
   );
 }
