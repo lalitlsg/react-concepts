@@ -13,6 +13,7 @@ import Style1 from "./components/styles/Style1";
 import Style2 from "./components/styles/Style2";
 import "./components/styles/global.css";
 import styles from "./components/styles/local.module.css";
+import Form from "./components/forms/Form";
 
 function App() {
   return (
@@ -33,9 +34,10 @@ function App() {
       {/* <ParentMethodProp /> */}
       {/* <Login /> */}
       {/* <List /> */}
-      <h1 className={styles.name}>Styles Demo</h1>
+      {/* <h1 className={styles.name}>Styles Demo</h1>
       <Style1 />
-      <Style2 />
+      <Style2 /> */}
+      <Form />
     </div>
   );
 }
