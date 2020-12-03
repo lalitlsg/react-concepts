@@ -9,6 +9,10 @@ import MethodProp from "./components/method-prop/MethodProp";
 import ParentMethodProp from "./components/method-prop/ParentMethodProp";
 import Login from "./components/cond-render/Login";
 import List from "./components/lists/List";
+import Style1 from "./components/styles/Style1";
+import Style2 from "./components/styles/Style2";
+import "./components/styles/global.css";
+import styles from "./components/styles/local.module.css";
 
 function App() {
   return (
@@ -28,7 +32,10 @@ function App() {
 
       {/* <ParentMethodProp /> */}
       {/* <Login /> */}
-      <List />
+      {/* <List /> */}
+      <h1 className={styles.name}>Styles Demo</h1>
+      <Style1 />
+      <Style2 />
     </div>
   );
 }
