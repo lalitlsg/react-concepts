@@ -14,6 +14,7 @@ import Style2 from "./components/styles/Style2";
 import "./components/styles/global.css";
 import styles from "./components/styles/local.module.css";
 import Form from "./components/forms/Form";
+import LifeCycleA from "./components/lifecycles/LifeCycleA";
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
       {/* <h1 className={styles.name}>Styles Demo</h1>
       <Style1 />
       <Style2 /> */}
-      <Form />
+      {/* <Form /> */}
+      <LifeCycleA name="lalit" />
     </div>
   );
 }
