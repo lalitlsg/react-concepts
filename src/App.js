@@ -20,6 +20,7 @@ import RefComp from "./components/refs/RefComp";
 import RefParent from "./components/refs-with-class/RefParent";
 import FRParent from "./components/forward-ref/FRParent";
 import PortalComp from "./components/portals/PortalComp";
+import EBParent from "./components/error-boundry/EBParent";
 
 function App() {
   return (
@@ -49,7 +50,8 @@ function App() {
       {/* <RefComp /> */}
       {/* <RefParent /> */}
       {/* <FRParent /> */}
-      <PortalComp />
+      {/* <PortalComp /> */}
+      <EBParent />
     </div>
   );
 }
