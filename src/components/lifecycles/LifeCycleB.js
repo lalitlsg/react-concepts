@@ -17,8 +17,13 @@ export default class LifeCycleB extends Component {
     console.log("LifeCycleB componentDidMount");
   }
 
+  componentWillMount() {
+    //cancel subscriptions, event listeners, ajax etc
+    console.log("LifeCycleB componentWillMount");
+  }
+
   render() {
     console.log("LifeCycleB render");
-    return <div></div>;
+    return <div>B Component</div>;
   }
 }
