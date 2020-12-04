@@ -19,6 +19,7 @@ import Parent from "./components/pure-comp/Parent";
 import RefComp from "./components/refs/RefComp";
 import RefParent from "./components/refs-with-class/RefParent";
 import FRParent from "./components/forward-ref/FRParent";
+import PortalComp from "./components/portals/PortalComp";
 
 function App() {
   return (
@@ -47,7 +48,8 @@ function App() {
       {/* <Parent /> */}
       {/* <RefComp /> */}
       {/* <RefParent /> */}
-      <FRParent />
+      {/* <FRParent /> */}
+      <PortalComp />
     </div>
   );
 }
