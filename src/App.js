@@ -18,6 +18,7 @@ import LifeCycleA from "./components/lifecycles/LifeCycleA";
 import Parent from "./components/pure-comp/Parent";
 import RefComp from "./components/refs/RefComp";
 import RefParent from "./components/refs-with-class/RefParent";
+import FRParent from "./components/forward-ref/FRParent";
 
 function App() {
   return (
@@ -45,7 +46,8 @@ function App() {
       {/* <LifeCycleA name="lalit" /> */}
       {/* <Parent /> */}
       {/* <RefComp /> */}
-      <RefParent />
+      {/* <RefParent /> */}
+      <FRParent />
     </div>
   );
 }
