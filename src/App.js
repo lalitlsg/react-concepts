@@ -16,6 +16,7 @@ import styles from "./components/styles/local.module.css";
 import Form from "./components/forms/Form";
 import LifeCycleA from "./components/lifecycles/LifeCycleA";
 import Parent from "./components/pure-comp/Parent";
+import RefComp from "./components/refs/RefComp";
 
 function App() {
   return (
@@ -41,7 +42,8 @@ function App() {
       <Style2 /> */}
       {/* <Form /> */}
       {/* <LifeCycleA name="lalit" /> */}
-      <Parent />
+      {/* <Parent /> */}
+      <RefComp />
     </div>
   );
 }
