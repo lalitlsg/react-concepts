@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Regular from "./Regular";
 import Pure from "./Pure";
+import Memo from "./Memo";
 
 export default class Parent extends Component {
   constructor(props) {
@@ -28,8 +29,9 @@ export default class Parent extends Component {
         <hr />
         <Regular color={this.state.color} arr={this.state.arr} />
         <hr />
-
         <Pure color={this.state.color} arr={this.state.arr} />
+        <hr />
+        <Memo color={this.state.color} />
       </div>
     );
   }

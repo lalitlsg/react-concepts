@@ -46,3 +46,6 @@ export default class Pure extends PureComponent {
     );
   }
 }
+
+//Note:
+//Pure Component / Memo - Component only re-renders if there is difference in shallow comparison of states or props.
