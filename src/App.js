@@ -22,6 +22,7 @@ import FRParent from "./components/forward-ref/FRParent";
 import PortalComp from "./components/portals/PortalComp";
 import EBParent from "./components/error-boundry/EBParent";
 import GetParent from "./components/hoc/GetParent";
+import RParent from "./components/render-props/RParent";
 
 function App() {
   return (
@@ -53,7 +54,8 @@ function App() {
       {/* <FRParent /> */}
       {/* <PortalComp /> */}
       {/* <EBParent /> */}
-      <GetParent />
+      {/* <GetParent /> */}
+      <RParent />
     </div>
   );
 }
